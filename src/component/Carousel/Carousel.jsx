@@ -2,12 +2,12 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 
 const slides = [
-  "../src/assets/dmk1.jpg",
-  "../src/assets/dmk2.jpg",
-  "../src/assets/dmk3.jpg",
-  "../src/assets/dmk4.jpg",
-  "../src/assets/dmk5.jpg",
-  "../src/assets/dmk6.jpg",
+  "../../assets/dmk1.jpg",
+  "../../assets/dmk2.jpg",
+  "../../assets/dmk3.jpg",
+  "../../assets/dmk4.jpg",
+  "../../assets/dmk5.jpg",
+  "../../assets/dmk6.jpg",
 ];
 
 const Carousels = () => {
