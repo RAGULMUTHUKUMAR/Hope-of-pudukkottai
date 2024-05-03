@@ -20,7 +20,12 @@ const Contact = () => {
           className="w-full p-[20px] lg:w-[60%]"
         ></iframe>
         <div className="flex flex-col justify-center items-center gap-[10px] lg:w-[40%] lg:gap-[30px]">
-          <div className="flex flex-col items-center justify-center gap-[10px] text-white w-[260px] h-[100px] p-[3px] bg-[#000] rounded-[5px] lg:w-[300px] lg:shadow-[#555] lg:shadow-2xl">
+          <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+            className="flex flex-col items-center justify-center gap-[10px] text-white w-[260px] h-[100px] p-[3px] bg-[#000] rounded-[5px] lg:w-[300px] lg:shadow-[#555] lg:shadow-2xl"
+          >
             <div className="flex items-center justify-center gap-[20px] w-full">
               <IoLocationSharp className="text-[25px] font-extrabold text-[#a30001]" />
               <h1 className="text-[20px] font-black text-[#a30001] ">முகவரி</h1>
@@ -29,7 +34,12 @@ const Contact = () => {
               புதுக்கோட்டை மாவட்டம், தமிழ்நாடு
             </h1>
           </div>
-          <div className="flex flex-col items-center gap-[10px] justify-center text-white w-[260px] h-[100px] p-[2px] bg-[#000] rounded-[5px] lg:w-[300px] lg:shadow-[#555] lg:shadow-2xl">
+          <div
+            data-aos="flip-right"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+            className="flex flex-col items-center gap-[10px] justify-center text-white w-[260px] h-[100px] p-[2px] bg-[#000] rounded-[5px] lg:w-[300px] lg:shadow-[#555] lg:shadow-2xl"
+          >
             <div className="flex items-center justify-center gap-[20px] w-full">
               <HiOutlineMail className="text-[25px] font-extrabold text-[#a30001]" />
               <h1 className="text-[20px] font-black text-[#a30001]">
@@ -40,7 +50,12 @@ const Contact = () => {
               hopeofpudukkottai@gmail.com
             </h1>
           </div>
-          <div className="flex flex-col items-center gap-[10px] justify-center text-white w-[260px] h-[100px] p-[2px] bg-[#000] rounded-[5px] lg:w-[300px] lg:shadow-[#555] lg:shadow-2xl">
+          <div
+            data-aos="flip-left"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+            className="flex flex-col items-center gap-[10px] justify-center text-white w-[260px] h-[100px] p-[2px] bg-[#000] rounded-[5px] lg:w-[300px] lg:shadow-[#555] lg:shadow-2xl"
+          >
             <div className="flex items-center justify-center gap-[20px] w-full">
               <PiPhoneCallFill className="text-[25px] font-extrabold text-[#a30001]" />
               <h1 className="text-[20px] font-black text-[#a30001]">

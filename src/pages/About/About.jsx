@@ -18,7 +18,12 @@ function About() {
 
       <div className="flex flex-col items-center justify-center gap-1 w-full">
         <div className="flex flex-col items-center justify-center gap-1 lg:flex-row lg:justify-around lg:p-[10px] lg:mt-[50px]">
-          <div className="w-[240px] rounded-sm mt-[20px] mb-[20px] bg-[#a30001] lg:w-[500px] ">
+          <div
+            data-aos="zoom-out-up"
+            data-aos-duration="600"
+            data-aos-easing="linear"
+            className="w-[240px] rounded-sm mt-[20px] mb-[20px] bg-[#a30001] lg:w-[500px] "
+          >
             <img src={About1img} className="object-cover p-1" />
           </div>
           <div className="flex flex-col  p-2 text-center lg:w-[60%] lg:gap-[10px]">
@@ -35,7 +40,13 @@ function About() {
           </div>
         </div>
         <div className="flex flex-col items-center w-[280px] mt-[20px] mb-[20px] bg-[#a30001] rounded-sm lg:hidden">
-          <img src={Aboutimg} className="object-cover p-[8px] rounded-xl " />
+          <img
+            src={Aboutimg}
+            className="object-cover p-[8px] rounded-xl "
+            data-aos="flip-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          />
           <p className="text-[12px] font-extrabold text-justify p-2 ">
             தமிழ் மொழிக் குடும்பத்தையும் அந்த மொழிகளைப் பேசும் மக்கள்
             இனத்தையும், அவர்கள் வாழும் நிலத்தையும் குறிக்கும் பழைமையான சொல்லே
@@ -96,7 +107,7 @@ function About() {
               </h1>
               <h1 className="text-[15px] font-[900] text-black lg:text-[15px] lg:text-center lg:pb-[20px]  ">
                 சார்பு அணிகள்
-             </h1>
+              </h1>
             </div>
             <div className="flex flex-col items-center justify-center p-2 lg:w-[20%] lg:gap-[30px]">
               <h1 className="text-[20px] font-[900] lg:text-[40px]">

@@ -4,8 +4,11 @@ import About from "./pages/About/About";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Froms from "./pages/Register_Form/Froms";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  Aos.init();
   return (
     <>
       <Navbars />
