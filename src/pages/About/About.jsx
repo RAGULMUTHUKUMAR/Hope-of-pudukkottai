@@ -82,7 +82,7 @@ function About() {
           />
         </div>
       </div>
-      <div className="bg-[#414141] text-white w-full p-[10px] mt-[20px] flex flex-col justify-center items-center gap-[10px]">
+      <div className="bg-[#9e9e9e] text-white w-full p-[10px] mt-[20px] flex flex-col justify-center items-center gap-[10px]">
         <h1 className="text-[25px] p-1 font-extrabold text-center text-[#a30001] lg:text-[40px]">
           கழகம்
         </h1>

@@ -4,7 +4,6 @@ import { GrInstagram } from "react-icons/gr";
 import { RiFacebookCircleFill } from "react-icons/ri";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io5";
-import img from "../../../src/assets/dmk4.jpg"
 
 const Footer = () => {
   return (
@@ -46,7 +45,6 @@ const Footer = () => {
           <IoLogoYoutube />
         </div>
       </div>
-      <img src={img}/>
       <p className="w-full h-[1px] bg-black"> </p>
       <h1 className="text-[9px] text-center bg-[#a30001] lg:text-[10px]">
         &copy;2024 VPRS Solutions
