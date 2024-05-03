@@ -8,7 +8,7 @@ function About() {
   const [count, setCount] = useState(false);
 
   return (
-    <div>
+    <div id="about">
       <h1 className="text-[15px] pt-[50px] font-black text-center lg:text-[25px] lg:pt-[70px]">
         நம்பிக்கை சூரியன் டாக்டர்
       </h1>
@@ -74,6 +74,9 @@ function About() {
             முன்னெடுக்கப்பட்டது.
           </p>
           <img
+            data-aos="flip-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
             src={Aboutimg}
             className="object-cover p-[8px] rounded-xl lg:w-[35%]"
           />

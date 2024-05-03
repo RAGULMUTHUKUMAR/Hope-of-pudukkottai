@@ -1,8 +1,9 @@
 import React from "react";
 
 function Froms() {
+
   return (
-    <div>
+    <div id="form">
        <h1 className="text-[20px] pt-[25px] pb-[20px] mt-[30px] font-black text-center lg:text-[25px] lg:pt-[70px] lg:pb-[50px]">கோரிக்கை</h1>
     <div className="grid grid-col place-content-center place-items-center gap-[10px] lg:grid-cols-2 lg:place-items-center lg:gap-[50px]">
      

@@ -12,7 +12,7 @@ const slides = [
 
 const Carousels = () => {
   return (
-    <div className="">
+    <div id="முகப்பு">
       <div className=" h-[260px] md:h-[600px] object-cover ">
         <Carousel slideInterval={5000} className="rounded-none w-full">
           {slides.map((item, idx) => (

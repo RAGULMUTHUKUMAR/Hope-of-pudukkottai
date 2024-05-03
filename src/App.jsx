@@ -6,12 +6,14 @@ import Home from "./pages/Home/Home";
 import Froms from "./pages/Register_Form/Froms";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ScrollToTopButton from "./component/ScrollToTop/ScrollToTopButton";
 
 function App() {
   Aos.init();
   return (
     <>
       <Navbars />
+      <ScrollToTopButton/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>

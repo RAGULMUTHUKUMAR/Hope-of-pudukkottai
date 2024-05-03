@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Navbar } from "flowbite-react";
 import Logo from "../../assets/Logo.png";
-import '../../Style/Navbar.css'
+import "../../Style/Navbar.css";
 
 function Navbars() {
   return (
@@ -19,11 +19,42 @@ function Navbars() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="text-[#A30001]">
-          <Navbar.Link to="/" active className='text-base text-[#A30001] font-bold hover:underline-red hover:underline hover:underline-offset-[8px] '>முகப்பு</Navbar.Link>
-          <Navbar.Link as={Link} to="#"className='text-base text-[#A30001]   font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] '>நம்பிக்கை சூரியன்</Navbar.Link>
-          <Navbar.Link to="#"className='text-base text-[#A30001]  font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] '>கோரிக்கை</Navbar.Link>
-          <Navbar.Link to="#"className='text-base text-[#A30001]  font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] '>புகைப்படம்</Navbar.Link>
-          <Navbar.Link to="#" className='text-base text-[#A30001]  font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] '>தொடர்புகொள்ள</Navbar.Link>
+          <Navbar.Link
+            to=""
+            href="/"
+            active
+            className="text-base text-[#A30001] font-bold hover:underline-red hover:underline hover:underline-offset-[8px] "
+          >
+            முகப்பு
+          </Navbar.Link>
+          <Navbar.Link
+            to=""
+            href="#about"
+            className="text-base text-[#A30001]   font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] "
+          >
+            நம்பிக்கை சூரியன்
+          </Navbar.Link>
+          <Navbar.Link
+            to=""
+            href="#form"
+            className="text-base text-[#A30001]  font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] "
+          >
+            கோரிக்கை
+          </Navbar.Link>
+          <Navbar.Link
+            to=""
+            href="#புகைப்படம்"
+            className="text-base text-[#A30001]  font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] "
+          >
+            புகைப்படம்
+          </Navbar.Link>
+          <Navbar.Link
+            to=""
+            href="#Contact"
+            className="text-base text-[#A30001]  font-bold hover:underline-yellow hover:underline hover:underline-offset-[8px] "
+          >
+            தொடர்புகொள்ள
+          </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
