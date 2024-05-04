@@ -1,29 +1,29 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
 
-const slides = [
+const slider = [
   "../../../src/assets/dmk1.jpg",
   "../../../src/assets/dmk2.jpg",
   "../../../src/assets/dmk3.jpg",
   "../../../src/assets/dmk4.jpg",
   "../../../src/assets/dmk5.jpg",
   "../../../src/assets/dmk6.jpg",
-];
+]
 
 const Carousels = () => {
   return (
     <div id="முகப்பு">
       <div className=" h-[260px] md:h-[600px] object-cover ">
-        <Carousel slideInterval={5000} className="rounded-none w-full">
-          {slides.map((item, idx) => (
-            <img
-              key={idx}
-              src={item}
-              alt={`carouselImg${idx + 1}`}
-              className="w-full"
-            />
-          ))}
-        </Carousel>
+      <Carousel slideInterval={5000} className="rounded-none w-full">
+  {slider.map((item, idx) => (
+    <img
+      key={idx}
+      src={item}
+      alt={`carouselImg${idx + 1}`}
+      className="w-full"
+    />
+  ))}
+</Carousel>
       </div>
       <div
         data-aos="zoom-out-up"
