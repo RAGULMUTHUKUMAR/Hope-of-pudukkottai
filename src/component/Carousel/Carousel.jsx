@@ -19,7 +19,7 @@ const Carousels = () => {
     <img
       key={idx}
       src={item}
-      alt={`carouselImg${idx + 1}`}
+      alt="img"
       className="w-full"
     />
   ))}
